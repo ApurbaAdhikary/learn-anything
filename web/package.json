@@ -26,7 +26,7 @@
     "solid-app-router": "^0.3.1",
     "solid-js": "^1.4.0",
     "solid-meta": "^0.27.3",
-    "solid-start": "^0.1.0-alpha.0",
+    "solid-start": "^0.1.0-alpha.88",
     "solid-start-node": "next",
     "tailwindcss": "^3.0.18",
     "typescript": "^4.6.2",
