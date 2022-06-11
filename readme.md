@@ -6,7 +6,7 @@
 
 ## What is it
 
-The vision of project is to create the best platform possible for learning any topic as well as finding & building novel ideas together.
+The vision of project is to create [the best platform possible for learning any topic as well as finding & building novel ideas together](https://wiki.nikiv.dev/ideas/learn-anything).
 
 Please read [our roadmap](https://learnany.notion.site/Roadmap-85d3ecd04d4c419abd4626a874f5b0b4) where we outline the problems we want to solve with building this platform and how we plan to solve them.
 
@@ -24,11 +24,13 @@ We share [all of our plans & docs in public](https://www.notion.so/Public-b3b8e0
 
 Check [contributing.md](contributing.md) instructions for how to run the project and how to contribute.
 
+The updated version of the website is found at [learnanything.dev](https://learnanything.dev)
+
 ## Old code
 
-The code for last release of Learn Anything currently deployed at [learn-anything.xyz](https://learn-anything.xyz) can be found [here](https://github.com/learn-anything/2017-release).
+The code for old release of Learn Anything currently deployed at [learn-anything.xyz](https://learn-anything.xyz) can be found [here](https://github.com/learn-anything/2017-release).
 
-As new version will be built, old version will be moved to a subdomain and eventually closed down as all the graphs will be present in a better way on new site.
+As new version will be built and will reach feature parity + more, old version will be sunset as all the graphs will be present in a better way on new site.
 
 ## Team
 

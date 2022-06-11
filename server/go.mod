@@ -1,3 +1,3 @@
-module learn-anything.xyz/server
+module learnanything.dev/server
 
 go 1.16
