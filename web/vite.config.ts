@@ -1,6 +1,10 @@
-import { defineConfig } from "vite";
-import solid from "solid-start";
+import solid from "solid-start"
+import netlify from "start-netlify"
 
-export default defineConfig({
-  plugins: [solid()],
-});
+export default {
+  plugins: [
+    solid({
+      adapter: netlify()
+    })
+  ]
+}
