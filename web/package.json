@@ -12,7 +12,7 @@
     "solid-app-router": "^0.3.3",
     "solid-js": "^1.4.4",
     "solid-meta": "^0.27.5",
-    "solid-start-netlify": "^0.1.0-alpha.82",
+    "solid-start-netlify": "0.1.0-alpha.82",
     "solid-start-node": "next",
     "tailwindcss": "^3.1.2",
     "tiny-sqlite3": "^1.2.0",
