@@ -3,7 +3,6 @@ import { Links, Meta, Routes, Scripts } from "solid-start/root"
 import { ErrorBoundary } from "solid-start/error-boundary"
 import { Suspense } from "solid-js"
 import "./index.css"
-import { Debugger } from "/Users/nikiv/clones/solid-devtools/packages/debugger/"
 
 export default function Root() {
   return (
@@ -15,14 +14,12 @@ export default function Root() {
         <Links />
       </head>
       <body class="antialiased">
-        <Debugger>
-          <ErrorBoundary>
-            <Suspense>
-              <Routes />
-            </Suspense>
-          </ErrorBoundary>
-          <Scripts />
-        </Debugger>
+        <ErrorBoundary>
+          <Suspense>
+            <Routes />
+          </Suspense>
+        </ErrorBoundary>
+        <Scripts />
       </body>
     </html>
   )
