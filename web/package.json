@@ -10,7 +10,6 @@
     "autoprefixer": "^10.4.2",
     "postcss": "^8.4.6",
     "solid-app-router": "^0.3.1",
-    "solid-devtools": "^0.0.1",
     "solid-js": "^1.4.0",
     "solid-meta": "^0.27.3",
     "solid-start-netlify": "^0.1.0-alpha.82",
