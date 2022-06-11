@@ -1,5 +1,5 @@
 import solid from "solid-start"
-import netlify from "start-netlify"
+import netlify from "solid-start-netlify"
 
 export default {
   plugins: [
