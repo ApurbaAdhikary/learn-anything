@@ -12,6 +12,11 @@ export default function Nav({ activePage }: Props) {
             About
           </a>
         )}
+        {activePage !== "Recent" && (
+          <a class="nav-link" href="/recent">
+            Recent
+          </a>
+        )}
       </div>
     </>
   )
