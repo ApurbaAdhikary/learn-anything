@@ -6,7 +6,9 @@ import Nav from "~/components/Nav"
 
 export function routeData() {
   return createServerResource(async () => {
-    const res = await axios.get("https://learn-anything-353016.ew.r.appspot.com/links")
+    // TODO: make it read from env var, for now localhost
+    // Run server from `server` folder.
+    const res = await axios.get("http://localhost:8080/links")
 
     if (res.data && res.data.links) return res.data.links
 
@@ -22,7 +24,9 @@ export default function Recent() {
       <Nav activePage={"Recent"} />
       <div>
         <ul>
-          {links()?.map((item) => <li>{item}</li>)}
+          {links()?.map((item) => (
+            <li>{item}</li>
+          ))}
         </ul>
       </div>
     </PageWrap>
