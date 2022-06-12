@@ -20,7 +20,7 @@ Roughly, these are the areas LA tries to tackle:
 
 ## Help us build it
 
-We share [all of our plans & docs in public](https://www.notion.so/Public-b3b8e046a6bc44549367b84423360b93).
+We share [all of our plans & docs in public](https://www.notion.so/Public-b3b8e046a6bc44549367b84423360b93). Current TODO is [here](https://learnany.notion.site/0c7f2b3e88394ae4bc74b3a0df117a80?v=812f03adaf4e44e2962a1a49ceb93a16).
 
 Check [contributing.md](contributing.md) instructions for how to run the project and how to contribute.
 
