@@ -45,6 +45,7 @@ importers:
       autoprefixer: ^10.4.7
       axios: ^0.27.2
       postcss: ^8.4.14
+      redaxios: ^0.5.0
       solid-app-router: ^0.3.3
       solid-js: ^1.4.4
       solid-meta: ^0.27.5
@@ -59,6 +60,7 @@ importers:
       autoprefixer: 10.4.7_postcss@8.4.14
       axios: 0.27.2
       postcss: 8.4.14
+      redaxios: 0.5.0
       solid-app-router: 0.3.3_solid-js@1.4.4
       solid-js: 1.4.4
       solid-meta: 0.27.5_solid-js@1.4.4
@@ -3817,6 +3819,10 @@ packages:
     engines: {node: '>=8.10.0'}
     dependencies:
       picomatch: 2.3.1
+
+  /redaxios/0.5.0:
+    resolution: {integrity: sha512-qmEJjQF0igI+H9SDKlQdWz6XskJ5zm2s6KPY0AvtlbQtRNe1OcuJIfxGmySDCpoU18/UtC7zWEFIWpkHMZ1/Ow==}
+    dev: false
 
   /regenerate-unicode-properties/10.0.1:
     resolution: {integrity: sha512-vn5DU6yg6h8hP/2OkQo3K7uVILvY4iu0oI4t3HFa81UPkhGJwkRwM10JEc3upjdhHjs/k8GJY1sRBhk5sr69Bw==}
