@@ -5,6 +5,7 @@ dist
 .netlify
 netlify
 .env.local
+web/dbschema/edgeql-js
 
 # dependencies
 /node_modules
