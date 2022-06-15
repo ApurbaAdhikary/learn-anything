@@ -44,7 +44,6 @@ importers:
     specifiers:
       autoprefixer: ^10.4.7
       edgedb: ^0.20.10
-      edgeql-js: ^1.0.0
       postcss: ^8.4.14
       redaxios: ^0.5.0
       solid-app-router: ^0.3.3
@@ -60,7 +59,6 @@ importers:
     dependencies:
       autoprefixer: 10.4.7_postcss@8.4.14
       edgedb: 0.20.10
-      edgeql-js: 1.0.0
       postcss: 8.4.14
       redaxios: 0.5.0
       solid-app-router: 0.3.3_solid-js@1.4.4
@@ -2399,12 +2397,6 @@ packages:
 
   /edgedb/0.20.10:
     resolution: {integrity: sha512-3Zpw9ZX0gBJ7f2VoAkt0dgXoMbIC89YRygQaRFy7hkAStE/M0MSrcoVwhq1KH2/30cGLPmf6O+/HO1bwQ76mRw==}
-    engines: {node: '>= 10.0.0'}
-    hasBin: true
-    dev: false
-
-  /edgeql-js/1.0.0:
-    resolution: {integrity: sha512-0Ys21f5gFu+uxHqWVsq/uaE5L58HuaBs0sdYNSwbyBZfR7/vak7oR6vISWcRFKLMq524h+lDSPYvqDXISpsAZQ==}
     engines: {node: '>= 10.0.0'}
     hasBin: true
     dev: false
