@@ -8,8 +8,5 @@ export default {
     solid({
       adapter: netlify()
     })
-  ],
-  optimizeDeps: {
-    exclude: ['solid-devtools']
-  },
+  ]
 }
