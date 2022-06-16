@@ -2,6 +2,7 @@
 import { Links, Meta, Routes, Scripts } from "solid-start/root"
 import { ErrorBoundary } from "solid-start/error-boundary"
 import { Suspense } from "solid-js"
+import { Debugger } from "solid-devtools"
 import "./index.css"
 
 export default function Root() {
@@ -15,9 +16,11 @@ export default function Root() {
       </head>
       <body class="antialiased">
         <ErrorBoundary>
-          <Suspense>
-            <Routes />
-          </Suspense>
+          <Debugger locator={{ targetIDE: "vscode-insiders" }}>
+            <Suspense>
+              <Routes />
+            </Suspense>
+          </Debugger>
         </ErrorBoundary>
         <Scripts />
       </body>
