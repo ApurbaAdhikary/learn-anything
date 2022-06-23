@@ -1,6 +1,7 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 	"os"
 
@@ -13,6 +14,8 @@ import (
 type errMsg error
 
 type model struct {
+	urlLink  string // url to save
+	urlTitle string // custom title of URL
 	spinner  spinner.Model
 	quitting bool
 	err      error
@@ -24,10 +27,13 @@ var quitKeys = key.NewBinding(
 )
 
 func initialModel() model {
+	urlLink := flag.String("urlLink", "", "url to save")
+	urlTitle := flag.String("urlTitle", "", "custom title of URL")
+	flag.Parse()
 	s := spinner.New()
 	s.Spinner = spinner.Dot
 	s.Style = lipgloss.NewStyle().Foreground(lipgloss.Color("205"))
-	return model{spinner: s}
+	return model{spinner: s, urlLink: *urlLink, urlTitle: *urlTitle}
 }
 
 func (m model) Init() tea.Cmd {
