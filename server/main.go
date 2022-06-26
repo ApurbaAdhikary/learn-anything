@@ -20,6 +20,6 @@ func serve() {
 }
 
 func main() {
-	loadEnv()
-	connectWithConnector()
+	// loadEnv()
+	// connectWithConnector()
 }
