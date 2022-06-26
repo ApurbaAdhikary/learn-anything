@@ -22,4 +22,5 @@ func serve() {
 func main() {
 	// loadEnv()
 	// connectWithConnector()
+	tryEnt()
 }
